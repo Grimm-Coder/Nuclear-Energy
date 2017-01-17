@@ -1,0 +1,86 @@
+/*Use this link: <link rel="stylesheet" type="text/css"> href="css_formatting.css">*/
+body {
+	background-color: rgb(251,255,204);
+	max-width: 64em;
+}
+
+h1 {
+	text-align: center;
+	text-shadow: 3px 2px rgb(81,214,64);
+	font-family: Impact, Charcoal, sans-serif;
+	color: rgb(67,181,53);
+	background-color: rgb(204,255,208);
+	border-left-style: double;
+	border-left-width: 0.625em;
+	border-left-color: rgb(67,181,53);
+}
+
+h2 {
+	text-align: center;
+	font-family: Impact, Charcoal, sans-serif;
+	color: rgb(67,181,53);
+	background-color: rgb(204,255,208);
+	border-left-style: double;
+	border-left-width: 0.625em;
+	border-left-color: rgb(67,181,53);
+}
+
+h3 {
+	font-family: Impact, Charcoal, sans-serif;
+	color: rgb(67,181,53);
+	background-color: rgb(204,255,208);
+	border-bottom-style: solid;
+	border-bottom-width: 0.625em;
+	border-bottom-color: rgb(67,181,53);
+}
+
+a:link, a:visited{
+	font-family: "Times New Roman", Times, serif;
+	text-decoration: none;
+	padding: 14px 25px;
+	background-color: rgb(67,181,53);
+	color: rgb(255,255,255);
+	text-align: center;
+	display: inline-block;
+}
+a:hover, a:active{
+	background-color: rgb(150,255,159);
+}
+
+p {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	padding: 15px 25px;
+	text-indent: 30px;
+	border: 3px ridge rgb(67,181,53);
+}
+
+ol, ul {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	padding: 15px 25px;
+	indent: 15px;
+	border: 3px ridge rgb(67,181,53);
+}
+
+img.float {
+	float: right;
+	padding: 0px 10px 10px
+}
+
+img.center {
+	text-align: center;
+	border: 3px solid rgb(67,181,53);
+	padding: 5px;
+	background-color: rgb(204,255,208); 
+}
+
+.clearleft{
+	clear: left;
+}
+
+.clearright{
+	clear: right;
+}
+
+div {
+	text-align: center;
+}
